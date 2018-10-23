@@ -1,4 +1,4 @@
-# InterLewd
+# InterBay
 
 [Baystation's Website](http://baystation12.net/) - [InterBay's Code](http://github.com/mattroks101/InterBay/)
 ---
