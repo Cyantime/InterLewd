@@ -1,7 +1,7 @@
 //bed
 /obj/structure/bed
 	icon = 'maps/dreyfus/icons/furniture.dmi'
-	
+
 //chairs
 /obj/structure/bed/chair/shuttle
 	name = "passenger seat"
@@ -11,6 +11,9 @@
 	icon_state = "shuttle_chair"
 	base_icon = "shuttle_chair"
 	material_alteration = MATERIAL_ALTERATION_NONE
+
+/obj/structure/bed/chair/shuttle/update_icon()
+	return
 
 /obj/structure/bed/chair/white
 	color = null
