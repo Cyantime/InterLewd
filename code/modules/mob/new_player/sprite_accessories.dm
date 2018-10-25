@@ -21,6 +21,8 @@
 	var/preview_state	// a custom preview state for whatever reason
 	var/name			// the preview name of the accessory
 	var/gender = NEUTER	// Determines if the accessory will be skipped or included in random hair generations
+	var/list/species_allowed = list(SPECIES_HUMAN)
+	var/do_colouration = 1
 	var/do_colouration = 1	// Whether or not the accessory can be affected by colouration
 
 /*
@@ -743,3 +745,167 @@
 /datum/sprite_accessory/facial_hair/chinless
 	name = "Chinless Beard"
 	icon_state = "facial_chinlessbeard"
+
+/*
+///////////////////////////////////
+/  =---------------------------=  /
+/  == Alien Style Definitions ==  /
+/  =---------------------------=  /
+///////////////////////////////////
+*/
+/datum/sprite_accessory/hair
+/datum/sprite_accessory/hair/una_spines_long
+	name = "Long Unathi Spines"
+	icon_state = "soghun_longspines"
+	species_allowed = list(SPECIES_UNATHI)
+/datum/sprite_accessory/hair/una_spines_short
+	name = "Short Unathi Spines"
+	icon_state = "soghun_shortspines"
+	species_allowed = list(SPECIES_UNATHI)
+/datum/sprite_accessory/hair/una_frills_long
+	name = "Long Unathi Frills"
+	icon_state = "soghun_longfrills"
+	species_allowed = list(SPECIES_UNATHI)
+/datum/sprite_accessory/hair/una_frills_short
+	name = "Short Unathi Frills"
+	icon_state = "soghun_shortfrills"
+	species_allowed = list(SPECIES_UNATHI)
+/datum/sprite_accessory/hair/una_horns
+	name = "Unathi Horns"
+	icon_state = "soghun_horns"
+	species_allowed = list(SPECIES_UNATHI)
+/datum/sprite_accessory/hair/skr_tentacle_m
+	name = "Skrell Male Tentacles"
+	icon_state = "skrell_hair_m"
+	species_allowed = list(SPECIES_SKRELL)
+	gender = MALE
+/datum/sprite_accessory/hair/skr_tentacle_f
+	name = "Skrell Female Tentacles"
+	icon_state = "skrell_hair_f"
+	species_allowed = list(SPECIES_SKRELL)
+	gender = FEMALE
+/datum/sprite_accessory/hair/taj_ears
+	name = "Tajaran Ears"
+	icon_state = "ears_plain"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_clean
+	name = "Tajara Clean"
+	icon_state = "hair_clean"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_bangs
+	name = "Tajara Bangs"
+	icon_state = "hair_bangs"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_braid
+	name = "Tajara Braid"
+	icon_state = "hair_tbraid"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_shaggy
+	name = "Tajara Shaggy"
+	icon_state = "hair_shaggy"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_mohawk
+	name = "Tajaran Mohawk"
+	icon_state = "hair_mohawk"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_plait
+	name = "Tajara Plait"
+	icon_state = "hair_plait"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_straight
+	name = "Tajara Straight"
+	icon_state = "hair_straight"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_long
+	name = "Tajara Long"
+	icon_state = "hair_long"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_rattail
+	name = "Tajara Rat Tail"
+	icon_state = "hair_rattail"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_spiky
+	name = "Tajara Spiky"
+	icon_state = "hair_tajspiky"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_messy
+	name = "Tajara Messy"
+	icon_state = "hair_messy"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_curls
+	name = "Tajara Curly"
+	icon_state = "hair_curly"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_wife
+	name = "Tajara Housewife"
+	icon_state = "hair_wife"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_victory
+	name = "Tajara Victory Curls"
+	icon_state = "hair_victory"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_bob
+	name = "Tajara Bob"
+	icon_state = "hair_tbob"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/taj_ears_fingercurl
+	name = "Tajara Finger Curls"
+	icon_state = "hair_fingerwave"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/hair/vox_quills_long
+	name = "Long Vox Quills"
+	icon_state = "vox_longquills"
+	species_allowed = list(SPECIES_VOX)
+/datum/sprite_accessory/facial_hair
+/datum/sprite_accessory/facial_hair/taj_sideburns
+	name = "Tajara Sideburns"
+	icon_state = "facial_sideburns"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/facial_hair/taj_mutton
+	name = "Tajara Mutton"
+	icon_state = "facial_mutton"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/facial_hair/taj_pencilstache
+	name = "Tajara Pencilstache"
+	icon_state = "facial_pencilstache"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/facial_hair/taj_moustache
+	name = "Tajara Moustache"
+	icon_state = "facial_moustache"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/facial_hair/taj_goatee
+	name = "Tajara Goatee"
+	icon_state = "facial_goatee"
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/facial_hair/taj_smallstache
+	name = "Tajara Smallsatche"
+	icon_state = "facial_smallstache"
+	species_allowed = list(SPECIES_TAJARA)
+//skin styles - WIP
+//going to have to re-integrate this with surgery
+//let the icon_state hold an icon preview for now
+/datum/sprite_accessory/skin
+	icon = 'icons/mob/human_races/r_human.dmi'
+/datum/sprite_accessory/skinhuman
+	name = "Default human skin"
+	icon_state = "default"
+	species_allowed = list(SPECIES_HUMAN)
+/datum/sprite_accessory/human_tatt01
+	name = "Tatt01 human skin"
+	icon_state = "tatt1"
+	species_allowed = list(SPECIES_HUMAN)
+/datum/sprite_accessory/tajaran
+	name = "Default tajaran skin"
+	icon_state = "default"
+	icon = 'icons/mob/human_races/r_tajaran.dmi'
+	species_allowed = list(SPECIES_TAJARA)
+/datum/sprite_accessory/unathi
+	name = "Default Unathi skin"
+	icon_state = "default"
+	icon = 'icons/mob/human_races/r_lizard.dmi'
+	species_allowed = list(SPECIES_UNATHI)
+/datum/sprite_accessory/skrell
+	name = "Default skrell skin"
+	icon_state = "default"
+	icon = 'icons/mob/human_races/r_skrell.dmi'
+	species_allowed = list(SPECIES_SKRELL)
