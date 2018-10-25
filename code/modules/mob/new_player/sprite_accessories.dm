@@ -22,7 +22,6 @@
 	var/name			// the preview name of the accessory
 	var/gender = NEUTER	// Determines if the accessory will be skipped or included in random hair generations
 	var/list/species_allowed = list(SPECIES_HUMAN)
-	var/do_colouration = 1
 	var/do_colouration = 1	// Whether or not the accessory can be affected by colouration
 
 /*
