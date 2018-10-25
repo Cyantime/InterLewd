@@ -8,7 +8,7 @@
 	oxygen requirements to support their robust metabolism."
 	icobase = 'icons/mob/human_races/subspecies/r_gravworlder.dmi'
 	health_hud_intensity = 3
-
+	spawn_flags = SPECIES_IS_RESTRICTED
 	flash_mod =     0.9
 	oxy_mod =       1.1
 	radiation_mod = 0.5

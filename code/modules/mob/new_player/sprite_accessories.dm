@@ -22,7 +22,6 @@
 	var/name			// the preview name of the accessory
 	var/gender = NEUTER	// Determines if the accessory will be skipped or included in random hair generations
 	var/list/species_allowed = list(SPECIES_HUMAN)
-	var/do_colouration = 1
 	var/do_colouration = 1	// Whether or not the accessory can be affected by colouration
 
 /*
@@ -41,7 +40,8 @@
 	name = "Bald"
 	icon_state = "bald"
 	veryshort = 1
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/short
 	name = "Short Hair"	  // try to capatilize the names please~	//try to spell "capitalize" better please~
 	icon_state = "hair_a" // you do not need to define _s sub-states, game automatically does this for you
@@ -68,9 +68,9 @@
 	name = "Shoulder-length Hair"
 	icon_state = "hair_b"
 
-/*/datum/sprite_accessory/hair/longish
+/datum/sprite_accessory/hair/longish
 	name = "Longer Hair"
-	icon_state = "hair_b2"*/
+	icon_state = "hair_b2"
 
 /datum/sprite_accessory/hair/longer
 	name = "Long Hair"
@@ -174,17 +174,20 @@
 	name = "Bobcurl"
 	icon_state = "hair_bobcurl"
 	gender = FEMALE
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
 
 /datum/sprite_accessory/hair/bob
 	name = "Bob"
 	icon_state = "hair_bobcut"
 	gender = FEMALE
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/bobcutalt
 	name = "Chin Length Bob"
 	icon_state = "hair_bobcutalt"
 	gender = FEMALE
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/bowl
 	name = "Bowl"
 	icon_state = "hair_bowlcut"
@@ -195,7 +198,8 @@
 	icon_state = "hair_buzzcut"
 	gender = MALE
 	veryshort = 1
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/crew
 	name = "Crewcut"
 	icon_state = "hair_crewcut"
@@ -216,7 +220,8 @@
 	name = "Reverse Mohawk"
 	icon_state = "hair_reversemohawk"
 	gender = MALE
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/devillock
 	name = "Devil Lock"
 	icon_state = "hair_devilock"
@@ -314,7 +319,8 @@
 /datum/sprite_accessory/hair/spiky
 	name = "Spiky"
 	icon_state = "hair_spikey"
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/kusangi
 	name = "Kusanagi Hair"
 	icon_state = "hair_kusanagi"
@@ -507,7 +513,8 @@
 	icon_state = "hair_shaved"
 	gender = MALE
 	veryshort = 1
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/hair/trimmed
 	name = "Trimmed"
 	icon_state = "hair_trimmed"
@@ -633,6 +640,7 @@
 	name = "Shaved"
 	icon_state = "bald"
 	gender = NEUTER
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_VOX,SPECIES_IPC)
 
 /datum/sprite_accessory/facial_hair/watson
 	name = "Watson Mustache"
@@ -673,7 +681,8 @@
 /datum/sprite_accessory/facial_hair/elvis
 	name = "Elvis Sideburns"
 	icon_state = "facial_elvis"
-
+	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
+	
 /datum/sprite_accessory/facial_hair/abe
 	name = "Abraham Lincoln Beard"
 	icon_state = "facial_abe"
