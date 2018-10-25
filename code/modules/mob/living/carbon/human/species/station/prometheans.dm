@@ -5,7 +5,10 @@ var/datum/species/shapeshifter/promethean/prometheans
 
 	name =             "Promethean"
 	name_plural =      "Prometheans"
-	blurb =            "A strange species made of slime, identical to their primitive counterparts with the exception that they are not only sentient, but can also maintain a humanoid shape, which they may change at will. While it's been theorized that their color determines their personality, there is no scientific backing to this statement. What is clear, though, is that sudden bursts of energy, burns, and even water will cause a Promethean to dissolve violently."
+	blurb =            "A strange species made of slime, identical to their primitive counterparts with the \
+	exception that they are not only sentient, but can also maintain a humanoid shape, which they may change at \
+	will. While it's been theorized that their color determines their personality, there is no scientific backing \
+	to this statement. What is clear, though, is that sudden bursts of energy, burns, and even water will cause a Promethean to dissolve violently."
 	show_ssd =         "totally quiescent"
 	death_message =    "rapidly loses cohesion, splattering across the ground..."
 	knockout_message = "collapses inwards, forming a disordered puddle of goo."
