@@ -129,8 +129,8 @@
 				footstepsound = "erikafootsteps"
 
 			if(H.wear_suit)//If they're wearing armor make an armor sound.
-				var/obj/item/clothing/suit/armor/C = H.wear_suit
-				if(istype(C))
+				var/obj/item/clothing/suit/C = H.wear_suit
+				if(istype(C) && C.armor["melee"] > 30)
 					is_wearing_armor = 1
 
 			if(H.shoes)//If they're wearing shoes play some shoe sounds.
