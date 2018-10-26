@@ -70,8 +70,8 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/utility/marine/security
 	shoes = /obj/item/clothing/shoes/jackboots
-	suit = /obj/item/clothing/suit/storage/vest/opvest
-	belt = /obj/item/weapon/melee/classic_baton//So they at least start off with some kind of weapon to defend themselves.
+	suit = /obj/item/clothing/suit/armor/pcarrier/medium/security
+	belt = /obj/item/weapon/melee/classic_baton //So they at least start off with some kind of weapon to defend themselves.
 	r_pocket = /obj/item/weapon/handcuffs
 	id_type = /obj/item/weapon/card/id/dreyfus/sec
 	pda_type = /obj/item/device/pda/security
@@ -82,7 +82,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/rank/head_of_security/corp
 	shoes = /obj/item/clothing/shoes/jackboots
-	suit = /obj/item/clothing/suit/armor/hos//He doesn't have a locker anymore.
+	suit = /obj/item/clothing/suit/armor/pcarrier/medium/command
 	id_type = /obj/item/weapon/card/id/dreyfus/hos
 	pda_type = /obj/item/device/pda/heads/hos
 
