@@ -125,8 +125,7 @@
 					dat += {"<A href='?src=\ref[usr];interaction=vaglick'><font color=purple>Lick pussy.</font></A><BR>"}
 				if (hasanus_p)
 					dat += {"<A href='?src=\ref[usr];interaction=asslick'><font color=purple>Lick ass.</font></A><BR>"}
-				if (isnude_p)
-					dat += {"<A href='?src=\ref[usr];interaction=titsuck'>Suck their tits.</A><BR>"}
+				dat += {"<A href='?src=\ref[usr];interaction=titsuck'>Suck tits.</A><BR>"}
 		//	dat +=  {"• <A href='?src=\ref[usr];interaction=spit'><font color=red>Spit.</font></A><BR>"}
 		//dat +=  {"• <A href='?src=\ref[usr];interaction=tongue'><font color=red>Stick out tongue.</font></A><BR>"}
 

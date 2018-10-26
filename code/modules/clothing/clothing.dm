@@ -156,6 +156,7 @@ BLIND     // can't see anything
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/species/vox/eyes.dmi',
 		)
+	drop_sound = 'sound/items/device_drop.ogg'
 
 /obj/item/clothing/glasses/get_mob_overlay(mob/user_mob, slot)
 	var/image/ret = ..()

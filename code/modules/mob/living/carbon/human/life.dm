@@ -196,6 +196,9 @@
 	else
 		if(species.appearance_flags & RADIATION_GLOWS)
 			set_light(max(1,min(10,radiation/10)), max(1,min(20,radiation/20)), species.get_flesh_colour(src))
+		var/obj/item/organ/internal/brain/slime/core = locate() in internal_organs
+		if(core)
+			return
 		// END DOGSHIT SNOWFLAKE
 
 		var/obj/item/organ/internal/diona/nutrients/rad_organ = locate() in internal_organs
@@ -983,7 +986,7 @@
 					if(!(M.status_flags & GODMODE))
 						M.adjustBruteLoss(5)
 					nutrition += 10
-	handle_excrement()
+	//handle_excrement()
 
 /mob/living/carbon/human/proc/handle_changeling()
 	if(mind && mind.changeling)

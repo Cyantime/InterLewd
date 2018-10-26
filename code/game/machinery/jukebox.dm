@@ -29,12 +29,17 @@ datum/track/New(var/title_name, var/audio)
 
 	var/datum/track/current_track
 	var/list/datum/track/tracks = list(
-		new/datum/track("Song 1", 'sound/jukebox/barsong1.ogg'),
-		new/datum/track("Song 2", 'sound/jukebox/barsong2.ogg'),
-		new/datum/track("Song 3", 'sound/jukebox/barsong3.ogg'),
-		new/datum/track("Song 4", 'sound/jukebox/barsong4.ogg'),
-		new/datum/track("Song 5", 'sound/jukebox/barsong5.ogg'),
-		new/datum/track("Song 6", 'sound/jukebox/barsong6.ogg'),
+		new/datum/track("Firestarter", 'sound/jukebox/barsong1.ogg'),
+		new/datum/track("Suffer Well", 'sound/jukebox/barsong2.ogg'),
+		new/datum/track("Unknown 0", 'sound/jukebox/barsong3.ogg'),
+		new/datum/track("Unknown 1", 'sound/jukebox/barsong4.ogg'),
+		new/datum/track("Better Off Alone", 'sound/jukebox/barsong5.ogg'),
+		new/datum/track("Look on Down from the Bridge", 'sound/jukebox/barsong6.ogg'),
+		new/datum/track("Luminous Beings", 'sound/jukebox/barsong7.ogg'),
+		new/datum/track("Lovesong", 'sound/jukebox/barsong8.ogg'),
+		new/datum/track("Run On", 'sound/jukebox/barsong9.ogg'),
+		new/datum/track("Arabella", 'sound/jukebox/barsong10.ogg'),
+		new/datum/track("Suffocation", 'sound/jukebox/barsong11.ogg'),
 	)
 
 /obj/machinery/media/jukebox/New()

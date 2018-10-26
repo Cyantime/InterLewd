@@ -16,6 +16,7 @@
 
 	emote("salute",1)
 
+/*
 /mob/living/carbon/human/verb/poo()
 	set name = "Poo"
 	set category = "Emotes"
@@ -27,7 +28,8 @@
 	set category = "Emotes"
 
 	emote("pee",1)
-
+*/
+	
 /mob/living/carbon/human/verb/hem()
 	set name = "Hem"
 	set category = "Emotes"

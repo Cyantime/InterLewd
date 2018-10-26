@@ -190,8 +190,9 @@
 		outputting = 1
 	else
 		outputting = 0
-	if(outputting)
+	/*if(outputting)
 		playsound(src, 'sound/effects/smes_loop.ogg', 50, 0)
+		*/
 
 
 // called after all power processes are finished
