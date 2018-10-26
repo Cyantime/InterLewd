@@ -376,6 +376,7 @@
 	desc = "Insignia denoting rank of some kind. These appear blank."
 	icon_state = "fleetrank"
 	slot = "rank"
+	gender = PLURAL
 
 /obj/item/clothing/accessory/rank/fleet
 	name = "naval ranks"

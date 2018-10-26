@@ -73,6 +73,14 @@
 			to_chat(H, "<span class='danger'>[src] does not fit you.</span>")
 		return 0
 	return 1
+	
+/obj/item/clothing/get_examine_line()
+	. = ..()
+	var/list/ties = list()
+	for(var/accessory in accessories)
+		ties += "\icon[accessory] \a [accessory]"
+	if(ties.len)
+		.+= " with [english_list(ties)] attached"
 
 ///////////////////////////////////////////////////////////////////////
 // Ears: headsets, earmuffs and tiny objects
