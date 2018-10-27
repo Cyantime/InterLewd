@@ -61,8 +61,13 @@
 /obj/item/clothing/accessory/armorplate/merc
 	name = "heavy armor plate"
 	desc = "A ceramics-reinforced synthetic armor plate, providing state of of the art protection. Attaches to a plate carrier."
-	icon_state = "armor_heavy"
+	icon_state = "armor_tactical"
 	armor = list(melee = 60, bullet = 60, laser = 60, energy = 40, bomb = 40, bio = 0, rad = 0)
+/obj/item/clothing/accessory/armorplate/stab
+	name = "stab-proof armor plate"
+	desc = "A kevlar plate designed to keep the chest and sides safe from sharp implements. Attaches to a plate carrier."
+	icon_state = "armor_light"
+	armor = list(melee = 75, bullet = 15, laser = 40, energy = 10, bomb = 25, bio = 0, rad = 0)
 
 //Arm guards
 /obj/item/clothing/accessory/armguards
@@ -204,7 +209,7 @@
 	desc = "An armor tag with the words FILL ME printed in bright gold lettering."
 	icon_state = "comtag"
 /obj/item/clothing/accessory/armor/tag/lewd/snuggle
-	name = "\improper fill me tag"
+	name = "\improper snuggle me tag"
 	desc = "An armor tag with the words SNUGGLE ME hastily scribbled in sharpie."
 	icon_state = "sectag"
 /obj/item/clothing/accessory/armor/tag/lewd/big

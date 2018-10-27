@@ -13,10 +13,10 @@
 						/datum/job/cargo_tech/machinist,
 						/datum/job/mining,
 						/datum/job/chef,
-						///datum/job/chaplain,
+						/datum/job/chaplain,
 						/datum/job/janitor,
-						/datum/job/arbiter,
-						/datum/job/supreme_arbiter						
+						///datum/job/arbiter,
+						///datum/job/supreme_arbiter
 						///datum/job/rd,
 						///datum/job/scientist,
 						///datum/job/raider,
@@ -38,10 +38,10 @@
 						/datum/job/cargo_tech/machinist,
 						///datum/job/mining,
 						/datum/job/chef,
-						///datum/job/chaplain,
+						/datum/job/chaplain,
 						/datum/job/janitor,
-						/datum/job/arbiter,
-						/datum/job/supreme_arbiter						
+						///datum/job/arbiter,
+						///datum/job/supreme_arbiter
 						///datum/job/rd,
 						///datum/job/scientist,
 						///datum/job/raider,
@@ -67,7 +67,7 @@
 						/datum/job/chaplain,
 						/datum/job/janitor,
 						///datum/job/arbiter,
-						///datum/job/supreme_arbiter,						
+						///datum/job/supreme_arbiter,
 						/datum/job/rd,
 						/datum/job/scientist
 						///datum/job/raider,
