@@ -661,7 +661,7 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 				playsound(P.loc.loc, 'sound/effects/clang.ogg', 50, 0, 0)
 			P.lust += 15
 			if (H.lust >= H.resistenza)
-				P.cum(H, P, "mouth")
+				P.cum(P, H, "mouth")
 			H.do_fucking_animation(P)
 			playsound(loc, "honk/sound/interactions/bang[rand(1, 3)].ogg", 70, 1, -1)
 			if (P.species.name == "Promethean")
