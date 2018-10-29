@@ -1177,6 +1177,7 @@
 #include "code\modules\client\preference_setup\global\04_pai.dm"
 #include "code\modules\client\preference_setup\global\05_ooc.dm"
 #include "code\modules\client\preference_setup\global\preference_datums.dm"
+#include "code\modules\client\preference_setup\lewd\07_lewd.dm"
 #include "code\modules\client\preference_setup\loadout\_defines.dm"
 #include "code\modules\client\preference_setup\loadout\gear_tweaks.dm"
 #include "code\modules\client\preference_setup\loadout\loadout.dm"

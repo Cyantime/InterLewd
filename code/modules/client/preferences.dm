@@ -119,6 +119,8 @@ datum/preferences
 	real_name = random_name(gender,species)
 	b_type = RANDOM_BLOOD_TYPE
 
+	gender == MALE ? (has_dong = 1) : (has_vag = 1)
+
 	gear = list()
 
 	if(istype(C))
@@ -407,7 +409,10 @@ datum/preferences
 	if(!character.isSynthetic())
 		character.nutrition = rand(140,360)
 
-	gender == MALE ? (character.dong = 1) : (character.vag = 1)
+	character.dong = has_dong
+	character.vag = has_vag
+	if(has_dong && dong_size)
+		character.potenzia = dong_size
 
 /datum/preferences/proc/open_load_dialog(mob/user)
 	var/dat  = list()
